@@ -3,3 +3,7 @@
 -If we are using constructor injection, all constructor arguments are mandatory.
 
 2.@Bean:- it marks a factory method which instantiates a spring bean.
+
+3.@ComponentScan:-
+
+Test please
