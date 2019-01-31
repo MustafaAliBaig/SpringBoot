@@ -1,0 +1,5 @@
+1.@Autowired:- We can use @Autowired to mark the dependency which spring is going to resolve and inject. We can use this annotation by constructor, setter and field injection.
+-@Autowired has boolean argument i.e; required and default value is true. It tunes spring behavior when it doesn’t found suitable bean to wire. When required value is true exception is thrown else nothing is wired.
+-If we are using constructor injection, all constructor arguments are mandatory.
+
+2.@Bean:- it marks a factory method which instantiates a spring bean.
